@@ -7,9 +7,10 @@
  git clone git@github.com:Vowkaz/laravel-setup.git
 ```
  
-Vá para pasta [Laradocker](https://laradock.io) e construia o container
+Vá para pasta [Laradocker](https://laradock.io), faça copia da env e construia o container
 ```sh
  cd ./laradock
+ cp .env.example .env
  docker-compose up -d [ nome da imagem ]
 ```
 
